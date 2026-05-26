@@ -1,8 +1,6 @@
 
 # **Analisi Vendite con SQL e Power BI**
 
-Questo progetto ti guida passo dopo passo nell'analisi dei dati di vendita, combinando l'estrazione e la trasformazione dei dati con **SQL** e la visualizzazione con **Power BI**. È stato sviluppato come supporto per il tutorial sul mio canale YouTube.
-
 ## **Contenuti della Repository**
 Questa repository contiene tutto il necessario per replicare il progetto presentato nel video:
 - **Script SQL**: Per creare il database, le tabelle e popolare i dati.
