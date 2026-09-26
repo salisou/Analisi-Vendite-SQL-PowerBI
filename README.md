@@ -1,52 +1,57 @@
+# Analisi Vendite con SQL e Power BI
 
-# **Analisi Vendite con SQL e Power BI**
+Progetto didattico e portfolio per mostrare un flusso completo di **database → query SQL → preparazione dati → dashboard Power BI**.
 
-## **Contenuti della Repository**
-Questa repository contiene tutto il necessario per replicare il progetto presentato nel video:
-- **Script SQL**: Per creare il database, le tabelle e popolare i dati.
-- **Query SQL**: Utilizzate per analizzare e preparare i dati.
-- **File Power BI** (`.pbix`): La dashboard completa e interattiva.
-- **Dataset demo**: Per testare il progetto.
+## Obiettivi
 
-## **Requisiti**
-Prima di iniziare, assicurati di avere:
-- **MySQL** o un database compatibile.
-- **Power BI Desktop** (gratuito).
-- Un editor SQL, come MySQL Workbench.
+- creare e popolare un database di vendite;
+- scrivere query SQL per l'analisi;
+- costruire viste/query riutilizzabili;
+- preparare i dati per Power BI;
+- realizzare una dashboard interattiva;
+- documentare il processo in modo riproducibile.
 
-## **Come utilizzare questa repository**
-1. **Clona la repository**:
-   ```bash
-   git clone https://github.com/tuo-username/Analisi-Vendite-SQL-PowerBI.git
-   cd Analisi-Vendite-SQL-PowerBI
-   ```
+## Tecnologie
 
-2. **Crea il database**:
-   - Apri lo script `AnalisiVenditeDB.sql` in un editor SQL.
-   - Esegui lo script per creare il database e popolare i dati.
+- SQL
+- Database relazionale
+- Power BI Desktop
+- CSV / dataset di esempio
 
-3. **Esplora le query**:
-   - Apri il file `QueryView.sql` per vedere le query utilizzate nell'analisi.
+## Struttura prevista
 
-4. **Importa in Power BI**:
-   - Apri il file `SalesDashboard.pbix` con Power BI Desktop.
-   - Connettiti al tuo database SQL per vedere i dati in tempo reale.
-
-5. **Personalizza la dashboard**:
-   - Modifica o aggiungi visualizzazioni per adattarle alle tue esigenze.
-
-
-
-## **Struttura della Repository**
-```plaintext
-📂 Analisi-Vendite-SQL-PowerBI
-├── create_database_and_insert.sql  # Script SQL per creare e popolare il database
-├── sales_queries.sql               # Query SQL per l'analisi
-├── SalesDashboard.pbix             # File Power BI della dashboard
-├── dataset.csv                     # Dataset demo (opzionale)
-└── README.md                       # Documentazione della repository
+```text
+Analisi-Vendite-SQL-PowerBI/
+├── AnalisiVenditeDB.sql
+├── QueryView.sql
+├── dataset.csv
+├── SalesDashboard.pbix
+└── README.md
 ```
 
-## **Contributi**
-Se hai suggerimenti o migliorie da proporre, sentiti libero di aprire una **issue** o inviare una **pull request**.
+## Avvio
 
+1. Clonare la repository:
+
+```bash
+git clone https://github.com/salisou/Analisi-Vendite-SQL-PowerBI.git
+cd Analisi-Vendite-SQL-PowerBI
+```
+
+2. Eseguire lo script SQL per creare database, tabelle e dati.
+3. Eseguire le query di analisi.
+4. Aprire `SalesDashboard.pbix` con Power BI Desktop.
+5. Verificare la connessione al database e aggiornare i dati.
+6. Esplorare e personalizzare la dashboard.
+
+## Valore nel portfolio
+
+Questo progetto rappresenta un esempio concreto di lavoro con **SQL + Data Analysis + Business Intelligence**, utile per collegare le competenze database alle attività di reporting.
+
+## Nota
+
+I file effettivamente presenti nella repository restano la fonte di riferimento per la struttura finale del progetto.
+
+---
+
+**© 2025 – Tutti i diritti riservati – Docente Moussa Salisou**
